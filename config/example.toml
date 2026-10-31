@@ -1,0 +1,11 @@
+[backup]
+name = "linux-protegido"
+schedule = "daily"
+
+[source]
+# Directorio ficticio de pruebas. No se ejecutan copias todavía.
+paths = ["./test-data"]
+
+[repository]
+type = "local"
+path = "./test-backups"
